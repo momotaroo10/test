@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Equipment Borrow Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- เพิ่ม jsPDF จาก CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.17/jspdf.plugin.autotable.min.js"></script>
+  
+  <!-- เชื่อมโยงกับไฟล์ JavaScript -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container my-5">
+    <!-- Header Section -->
+    <div class="text-center mb-4">
+      <img src="logo.png" alt="Logo" class="logo mb-3">
+      <h1 class="fs-4">Information Technology</h1>
+      <p class="fs-6">ข้อมูลการยืมอุปกรณ์</p>
+    </div>
+
+    <!-- Table Section -->
+    <h2 class="fs-5">ข้อมูลการยืมทั้งหมด</h2>
+    <div class="table-responsive mb-3">
+      <table class="table table-bordered text-center" id="borrowTable">
+        <thead class="table-light">
+  <tr>
+    <th>วันที่ยืม</th>
+    <th>ชื่อผู้ยืม</th>
+    <th>รายการยืม</th>
+    <th>จำนวน</th>
+    <th>กำหนดส่งคืน</th>
+    <th>ผู้รับคืน</th>
+    <th>สถานะการคืน</th> <!-- เพิ่มหัวตารางสำหรับ checkbox -->
+  </tr>
+</thead>
+
+<tbody>
+  <!-- ข้อมูลจะถูกเติมในส่วนนี้ -->
+</tbody>
+
+
+      </table>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

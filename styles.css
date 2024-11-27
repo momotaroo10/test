@@ -1,0 +1,13 @@
+table {
+  font-family: 'Itim', sans-serif;
+  font-size: 14px;
+}
+
+th, td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-light {
+  background-color: #f8f9fa;
+}
